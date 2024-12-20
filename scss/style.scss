@@ -1,0 +1,108 @@
+$c1: hsl(0, 0%, 100%);
+
+$c2: hsl(30, 54%, 90%);
+$c3: hsl(30, 18%, 87%);
+$c4: hsl(30, 10%, 34%);
+$c5: hsl(24, 5%, 18%);
+
+$c6: hsl(14, 45%, 36%);
+
+$c7: hsl(332, 51%, 32%);
+$c8: hsl(330, 100%, 98%);
+$f1: "Young Serif", serif;
+$f2: "Outfit", serif;
+
+
+body{
+    background-color: $c2;
+    
+}
+.recipe{
+    height: 1400px;
+    width: 695px;
+    background-color: $c1;
+    border-radius: 15px;
+    img{
+        width: 400px;
+        border-radius: 15px;
+        padding: 20px;
+    }
+    h2{
+        font-family: $f1;
+        font-weight: 400;
+        padding-left: 20px;
+        
+    }
+
+    p{
+        font-family: $f2;
+        font-weight: 400;
+        padding-left: 20px;
+        
+    }
+    h4{
+        color: $c7;
+        padding-left: 40px;
+        font-family: $f2;
+        font-size: 20px;
+    }
+    li::marker{
+        color: $c7;
+    }
+    li{
+        font-family: $f2;
+        font-weight: 400;
+        padding-left: 20px;
+    }
+    ul{
+        margin-left: 20px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    li span{
+        font-weight: 700;
+    }
+    h3{
+        font-family: $f1;
+        font-size: 25px;
+        color: $c6;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .instalist
+    {list-style-type: decimal;
+    ::marker{
+
+        color: $c6;
+    }
+   
+}
+
+
+}
+
+table{
+    font-family: $f1;
+    border-collapse: collapse;
+    margin-left: 20px;
+
+    td{
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+    
+    tr{
+
+       
+        border-bottom: 1px solid black;
+    }
+    .bold{
+        font-weight: 700;
+        color: $c6;
+        padding-left: 400px;
+    }
+}
+    
